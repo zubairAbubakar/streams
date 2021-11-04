@@ -1,3 +1,40 @@
 {
-  "streams": []
+  "streams": [
+    {
+      "title": "My first stream",
+      "description": "This is a great stream",
+      "id": 1
+    },
+    {
+      "title": "Other stream",
+      "description": "Looks like a great stream",
+      "id": 2
+    },
+    {
+      "title": "This had better worked ",
+      "description": "I think it is working, is it?",
+      "id": 3
+    },
+    {
+      "title": "Work oooooo",
+      "description": "Willl you?",
+      "id": 4
+    },
+    {
+      "title": "I created this ",
+      "description": "really?",
+      "id": 5
+    },
+    {
+      "title": "Ediit component",
+      "description": "Noo Yaayyyyy oo!",
+      "id": 8
+    },
+    {
+      "title": "fasdfas",
+      "description": "fasdfasdf",
+      "userId": "102733541814860764291",
+      "id": 9
+    }
+  ]
 }
