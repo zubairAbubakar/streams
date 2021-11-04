@@ -29,18 +29,21 @@ class StreamList extends React.Component {
   }
 
   renderList() {
-    return this.props.streams.map((stream) => {
-      return (
-        <div className="item" key={stream.id}>
-          {this.renderAdminButtons(stream)}
-          <i className="large middle aligned icon camera" />
-          <div className="content">
-            <Link to={`/streams/${stream.id}`}>{stream.title}</Link>
-            <div className="description">{stream.description}</div>
+    console.log(this.props.currentUserId);
+    return this.props.streams
+      .filter((stream) => stream.userId === this.props.currentUserId)
+      .map((stream) => {
+        return (
+          <div className="item" key={stream.id}>
+            {this.renderAdminButtons(stream)}
+            <i className="large middle aligned icon camera" />
+            <div className="content">
+              <Link to={`/streams/${stream.id}`}>{stream.title}</Link>
+              <div className="description">{stream.description}</div>
+            </div>
           </div>
-        </div>
-      );
-    });
+        );
+      });
   }
 
   renderCreateButton() {
