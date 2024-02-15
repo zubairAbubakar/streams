@@ -1,0 +1,51 @@
+{
+  "company": [
+    {
+      "linkedinUrl": "www.linkedin.com/instill",
+      "name": "Instill-dev",
+      "size": "5001-10,000",
+      "industry": "Engineering",
+      "isCultureDefined": "false",
+      "isCultureManagedByUser": "true",
+      "companyLogo": {
+        "width": 512,
+        "height": 512
+      },
+      "companyPrimaryColor": "s3434",
+      "companySecondaryColor": "90909",
+      "id": 1
+    }
+  ],
+  "users": [
+    {
+      "nickname": "zuby52",
+      "name": "zuby52@gmail.com",
+      "picture": "https://s.gravatar.com/avatar/e469b50485e6f018394e774ec29b0771?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fzu.png",
+      "updated_at": "2021-12-07T20:45:32.254Z",
+      "email": "zuby52@gmail.com",
+      "email_verified": false,
+      "sub": "auth0|618c374a93d5400069c00be5",
+      "id": 1
+    },
+    {
+      "nickname": "zuby52",
+      "name": "zuby52@gmail.com",
+      "picture": "https://s.gravatar.com/avatar/e469b50485e6f018394e774ec29b0771?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fzu.png",
+      "updated_at": "2021-12-07T20:45:32.254Z",
+      "email": "zuby52@gmail.com",
+      "email_verified": false,
+      "sub": "auth0|618c374a93d5400069c00be5",
+      "id": 2
+    },
+    {
+      "nickname": "zuby52",
+      "name": "zuby52@gmail.com",
+      "picture": "https://s.gravatar.com/avatar/e469b50485e6f018394e774ec29b0771?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fzu.png",
+      "updated_at": "2021-12-07T20:45:32.254Z",
+      "email": "zuby52@gmail.com",
+      "email_verified": false,
+      "sub": "auth0|618c374a93d5400069c00be5",
+      "id": 3
+    }
+  ]
+}
